@@ -2,7 +2,6 @@ import React, { useState } from 'react';
 
 const Accordance = ({ items }) => {
   const [activeIndex, setActiveIndex] = useState(null);
-
   const onTitleClick = (index) => {
     setActiveIndex(index);
   }
